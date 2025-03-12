@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Form Penjualan</h2>
+        <label for="produk">Produk</label>
+        <input type="text" id="produk">
+        <label for="jumlah">Jumlah</label>
+        <input type="number" id="jumlah">
+        <label for="harga">Harga</label>
+        <input type="number" id="harga">
+        <div class="form-button">
+            <button>Tambahkan</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Data Penjualan Bulanan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Produk</th>
+                    <th>Jumlah</th>
+                    <th>Harga Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sepatu</td>
+                    <td>50</td>
+                    <td>Rp 25.000.000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tas</td>
+                    <td>30</td>
+                    <td>Rp 15.000.000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jam Tangan</td>
+                    <td>20</td>
+                    <td>Rp 10.000.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="total-row">
+                    <td colspan="2">Total Penjualan</td>
+                    <td>100</td>
+                    <td>Rp 50.000.000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</div>
+
+</body>
+</html>
